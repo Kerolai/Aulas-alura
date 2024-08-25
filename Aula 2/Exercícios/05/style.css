@@ -1,0 +1,19 @@
+/* Define estilos padrão para todos os elementos */
+* {
+    padding: 5px; /* Adiciona um padding de 5 pixels a todos os elementos */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para o documento */
+  }
+  
+  /* Estilos para o container responsivo */
+  .responsivo-container {
+    display: flex; /* Usa o flexbox para criar um layout flexível */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+  }
+  
+  /* Estilos para os elementos dentro do container */
+  .elemento {
+    margin: 5px; /* Adiciona uma margem de 5 pixels ao redor dos elementos */
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }

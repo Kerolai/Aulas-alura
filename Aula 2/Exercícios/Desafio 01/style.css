@@ -1,0 +1,16 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocos1{
+    background-color: black;
+    color: aliceblue;
+
+}
+.blocos2{
+    background-color: red;
+    color: aliceblue;
+
+}

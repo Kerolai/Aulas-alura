@@ -1,0 +1,15 @@
+.foto__Kerolai{
+    width: 300px;
+    border-radius: 30px;
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #22D4FD; 
+    gap: 16px;  
+}
+.apresentacao__links__link:hover {
+        border: 2px solid #0000FF;
+        cursor: pointer;
+        background-color: #272727;
+}

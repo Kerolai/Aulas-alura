@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;/*centraliza os itens horizontalmente*/
+    align-items: center ;/*Centraliza os itens verticalmente*/
+    padding: 20%;
+  }
+.imagem{
+    height: 150px;
+}
+
+
+  .texto, .imagem {
+    margin: 0 10px; /* Adiciona margens entre os itens */
+  }

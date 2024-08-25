@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black ;
+    color: white;
+}
+.titulo-destaque{
+    color:#22D4FD;
+}
+.apresentacao{
+    margin: 10% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 300px;
+    border-radius: 5%;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*A propriedade gap não é exclusiva do Flexbox, porém é utilizada quase sempre em conjunto com ele. Ela especifica no CSS o tamanho dos espaços entre linhas e colunas em layouts de grid, flex e multi-column. Sua sintaxe é bem simples e ela aceita um ou dois valores.*/
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+     font-family: "Krona One", sans-serif;
+
+}
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0; /*Sempre o primeiro valor será do eixo vertical logo apos o horizontal*/
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}

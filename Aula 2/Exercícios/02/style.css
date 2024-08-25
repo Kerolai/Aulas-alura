@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex; /*para centrar o conteudo tanto horizontal quanto vertical*/
+    justify-content: center;
+    align-items: center; /*Altura é definada como 100vh, para garantir que ocupar 100% da altura*/
+    background-color: black;
+    color: #fff;
+
+}
+
+.conteiner{
+    display: flex; /*cria um conteiner flexivel para alinhar os blocos lado a lado*/
+    gap: 20px; /*Define um espaçamento de 20px entre os blocos*/
+
+}
+
+.block{
+    padding: 20px; /*Preenchimento interno ao redor do conteudo do bloco*/ 
+    border-color: #333; /*Cor de fundo do espaço padding ocupou.*/
+}

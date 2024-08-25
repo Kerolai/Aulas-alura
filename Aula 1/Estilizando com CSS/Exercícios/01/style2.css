@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(19, 110, 19);
+    color: white;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+.conteiner img{
+    border-radius: 80%;
+    margin-right: 20px;
+}
+h1 , p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.rodape{
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+.des{
+    text-align: justify;
+}
+a{
+    color: aliceblue;
+ }
